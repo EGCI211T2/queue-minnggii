@@ -57,7 +57,9 @@ int Queue::dequeue(){
 
 Queue::Queue(){
     //initialize Queue
-    
+    size = 0;
+    headPtr = NULL;
+    tailPtr = NULL;
     
 }
 Queue::~Queue(){
